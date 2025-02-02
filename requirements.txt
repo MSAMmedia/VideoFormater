@@ -1,0 +1,13 @@
+# Core dependencies
+ffmpeg-python
+PyQt5
+moviepy
+
+# Development dependencies
+pytest
+black
+pylint
+
+# Optional dependencies
+opencv-python
+numpy
