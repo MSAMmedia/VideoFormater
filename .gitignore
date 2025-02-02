@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# PyCharm
+.idea/
+*.iml
+.idea_modules/
+
+# Logs and databases
+*.log
+*.sqlite3
+app.log
+ffmpeg2pass-0.log
+*.mbtree
+
+# Test files
+testfiles/
+bundle/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
