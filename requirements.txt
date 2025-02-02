@@ -1,13 +1,17 @@
 # Core dependencies
 ffmpeg-python
-PyQt5
+pyqt6  # Using PyQt6 instead of PyQt5 for better macOS support
 moviepy
+
+# Video processing
+opencv-python
+numpy
 
 # Development dependencies
 pytest
 black
 pylint
 
-# Optional dependencies
-opencv-python
-numpy
+# macOS specific
+pyobjc-framework-Cocoa  # For macOS native UI integration
+pyobjc-framework-Quartz  # For screen capture and graphics
